@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Shortcuts</string>
+    <string name="shortcut_message_short_label">Mensajes</string>
+    <string name="shortcut_message_long_label">Click para ingresar a mensajes</string>
+</resources>

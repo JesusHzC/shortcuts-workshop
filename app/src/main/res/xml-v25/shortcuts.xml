@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="message"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:shortcutShortLabel="@string/shortcut_message_short_label"
+        android:shortcutLongLabel="@string/shortcut_message_long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.shortcutsandwidgets"
+            android:targetClass="com.example.shortcutsandwidgets.MessageActivity"/>
+    </shortcut>
+</shortcuts>
